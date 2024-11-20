@@ -35,7 +35,9 @@ fn main() {
 
     // this does not have inheritance because rust does not have inheritance 
     // but we can define shared behaviour with a trait 
-    polymorphism(); // look down 
+    polymorphism(); 
+    // example belove, I know its funny but i wanted this to go in certain order
+    // and also run   
            
 }
 
@@ -75,5 +77,7 @@ fn polymorphism() {
     for shape in shapes {
         //dynamically calls the area method because of the object type 
         println!("area: {}", shape.area());
+        // this will print two area: value lines 
+        // one 
     }
 }
