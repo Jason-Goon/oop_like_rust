@@ -11,7 +11,7 @@ struct Rect {
 
 //Rect has methods so it behaves like an object 
 impl Rect {
-    fn area(&self) -> u32 { // &self shortahnd for self: &Self means immutable borrow of the struct
+    fn area(&self) -> u32 { // &self shorthand for self: &Self means immutable borrow of the struct
         self.widht * self.height   
     } // everything is immutable by default & means borrow or a reference, in this case to the struct, that owns it 
 
